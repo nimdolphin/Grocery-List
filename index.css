@@ -1,0 +1,48 @@
+body {
+  background-color: orange;
+}
+
+.container {
+  width: 500px;
+  min-height: 100vh;
+  background-color: white;
+  margin: auto;
+  margin-top: -16px;
+}
+
+p {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+
+#userInput {
+  border: none;
+  border-bottom: solid 2px gray;
+  outline: none;
+  width: 350px;
+  font-size: 30px;
+}
+
+#eraser {
+  background-image: url(./svg/trash.svg);
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+#list {
+  cursor: pointer;
+}
+
+#main {
+  margin-left: 50px; 
+  font-size: 30px;
+}
