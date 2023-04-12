@@ -1,11 +1,17 @@
+:root {
+  --pumpkin: #FE8020;
+  --white: #fff;
+  --font-size: 30px;
+}
+
 body {
-  background-color: orange;
+  background-color: var(--pumpkin);
 }
 
 .container {
   width: 500px;
   min-height: 100vh;
-  background-color: white;
+  background-color: var(--white);
   margin: auto;
   margin-top: -16px;
 }
@@ -24,7 +30,7 @@ p {
   border-bottom: solid 2px gray;
   outline: none;
   width: 350px;
-  font-size: 30px;
+  font-size: var(--font-size);
 }
 
 #eraser {
@@ -34,7 +40,7 @@ p {
   height: 30px;
   outline: none;
   border: none;
-  background-color: white;
+  background-color: var(--white);
   cursor: pointer;
 }
 
@@ -44,5 +50,5 @@ p {
 
 #main {
   margin-left: 50px; 
-  font-size: 30px;
+  font-size: var(--font-size);
 }
